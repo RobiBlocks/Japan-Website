@@ -48,12 +48,12 @@ li {
 }
 
 h1::selection, h2::selection, h3::selection, p::selection, li::selection, b::selection {
-    color: var(--cherry-blossom);
+    color: white;
     background: var(--dark-red);
 }
 footer h2::selection {
     color: var(--black-red);
-    background-color: var(--cherry-blossom);
+    background-color: white;
 }
 
 header {
@@ -91,7 +91,6 @@ nav {
 
 .navbar a:hover {
     background-color: var(--dark-red);
-    color: var(--tomato);
 }
 
 .navbar li {
